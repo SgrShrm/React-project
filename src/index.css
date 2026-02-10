@@ -1,2 +1,34 @@
+@import url('https://fonts.googleapis.com');
 @import "tailwindcss";
 
+@theme {
+  --font-josefin: "Josefin Sans", sans-serif;
+}
+
+
+@layer components{
+    .container {
+        @apply mx-auto
+    }
+
+    .track {
+        @apply border-red-100
+    }
+
+    .primary-color{
+        @apply bg-[#7E33E0]
+    }
+
+    .secondary-color{
+        @apply bg-[#FB2E86]
+    }
+
+    .text{
+        @apply text-[#F1F1F1]
+    }
+    
+    .font-style{
+        @apply font-josefin;
+    }
+
+}
